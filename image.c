@@ -85,7 +85,7 @@ void* thread_convolute(void* arg){
 
 void convolute(Image* srcImage,Image* destImage,Matrix algorithm){
 
-    int num_threads = 1; 
+    int num_threads = 4; 
     pthread_t threads[num_threads];
     ThreadData thread_data[num_threads];
     int rows_per_thread = srcImage->height / num_threads;
