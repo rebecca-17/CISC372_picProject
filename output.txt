@@ -1,0 +1,9 @@
+Script started on Wed Apr  8 12:13:00 2026
+[raforman@r1n01 CISC372_picProject]$ ./pthreadsImage pic1.jpg edge
+Took 7 seconds
+[raforman@r1n01 CISC372_picProject]$ ./openMpimage pic1.jpg edge
+Took 6 seconds
+[raforman@r1n01 CISC372_picProject]$ exit
+exit
+
+Script done on Wed Apr  8 12:13:59 2026
