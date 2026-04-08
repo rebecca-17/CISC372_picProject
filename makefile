@@ -5,5 +5,8 @@ image:image.c image.h
 thread:pthreadsImage.c image.h
 	gcc -g pthreadsImage.c -o pthreadsImage -lm -lpthread
 
+openMP: openMpimage.c image.h
+	gcc -g -fopenmp openMpimage.c -o openMpimage -lm
+
 clean:
 	rm -f image output.png
